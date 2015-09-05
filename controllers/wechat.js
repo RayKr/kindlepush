@@ -1,5 +1,5 @@
 var wechat = require('wechat');
-var config = require('../config');
+var config = require('../conf/config');
 
 exports.reply = wechat(config.mp, wechat.text(function (message, req, res) {
   console.log(message);

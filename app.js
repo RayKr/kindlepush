@@ -1,4 +1,3 @@
-var http = require('http');
 var connect = require('connect');
 var config = require('./conf/config');
 var mp = require('./controllers/wechat');
@@ -11,9 +10,6 @@ app.use('/', function (req, res) {
   res.end('hello node api');
 });
 
-/**
- * Error handler
- */
 app.use(function (err, req, res) {
   console.log(err.message);
   console.log(err.stack);
@@ -21,5 +17,4 @@ app.use(function (err, req, res) {
   res.end(err.message);
 });
 
-var server = http.createServer(app);
-server.listen(3000);
+var server = app.listen(3000);

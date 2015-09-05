@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "Push the link of books to your kindle.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./bin/www"
   },
   "repository": {

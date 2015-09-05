@@ -1,0 +1,27 @@
+{
+  "name": "kindlepush",
+  "version": "0.0.1",
+  "description": "Push the link of books to your kindle.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:RayKr/kindlepush.git"
+  },
+  "dependencies": {
+    "connect": "2.8.4",
+    "wechat": "1.0.1",
+    "ejs": "1.0.0"
+  },
+  "author": "Ray King",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {},
+  "keywords": [
+    "wechat",
+    "Kindle",
+    "Push"
+  ]
+}

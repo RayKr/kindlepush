@@ -1,2 +1,0 @@
-# kindlepush
-raykr's kindlepusher

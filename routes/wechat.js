@@ -1,7 +1,8 @@
+var wxcfg = require('../conf/wechatcfg');
 var wechat = require('wechat');
-var config = require('../conf/config');
 
-exports.reply = wechat(config, function(req, res, next) {
-	console.log("2342fs");
-	res.reply("fuck");
+module.exports = wechat(wxcfg, function (req, res, next) {
+  var message = req.weixin;
+  console.log('message='+message);
+  res.reply('helloworlddddd');
 });

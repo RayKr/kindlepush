@@ -1,5 +1,4 @@
 var express = require('express');
-var config = require('./conf/config');
 var wechat = require('./routes/wechat');
 
 var app = express();
